@@ -1,31 +1,74 @@
 # Funngro Website Revamp
 
-Static 2-page demo website (Home + Teen) for the "Funngro Webpage" — connects teenagers with real company projects so they can learn, earn, and build practical experience.
+This project is a **static, responsive 2-page website** created as a **demo / evaluation task** to showcase a website revamp concept for the Funngro platform.
 
-Site content:
-- index.html — Home page (SEO-friendly)
-- teen.html — Teen page (step-by-step flow & sign-up demo)
-- styles.css — Shared stylesheet
-- sitemap.xml — Sitemap referencing both pages
-- robots.txt — robots instructions (points to sitemap)
-- LICENSE — MIT
+The website demonstrates how Funngro connects **teenagers with real company projects**, enabling them to **learn, earn, and gain practical experience** at an early stage.
 
-Domain placeholder used in files: https://arpitskills-funngro.example/
+---
 
-Quick start (create & push repo manually)
-1. Create a new repository on GitHub named `funngro-website-revamp` (public).
-2. In your project folder:
-   - git init
-   - git add .
-   - git commit -m "Initial commit — Funngro Website Revamp"
-   - git remote add origin https://github.com/itx-arpit/funngro-website-revamp.git
-   - git branch -M main
-   - git push -u origin main
+## 🌐 Pages Overview
 
-Deploy:
-- GitHub Pages: enable Pages in repo settings (use main branch, /root).
-- Netlify: drag & drop the site folder or connect the GitHub repo and enable the site. Netlify Forms is already configured on teen.html.
+### 🏠 Home Page (`index.html`)
+- Clear introduction to the Funngro platform  
+- Value proposition for teens  
+- “How it works” section  
+- Call-to-action buttons  
+- SEO-friendly HTML structure  
 
-Notes:
-- Replace the placeholder domain (https://arpitskills-funngro.example/) with your real domain once ready.
-- Netlify: the form named `funngro-signup` will capture submissions automatically after deploy.
+### 👦 Teen Page (`teen.html`)
+- Dedicated page for teenagers  
+- Step-by-step process (Sign up → Get projects → Work & earn)  
+- Front-end demo sign-up form  
+- Simple, clear and youth-friendly content  
+
+---
+
+## 🛠️ Tech Stack Used
+
+- **HTML5**
+- **CSS3**
+- Pure front-end (no backend)
+- Fully static and fast-loading
+
+---
+
+## 📁 Project Structure
+
+---
+
+## 🚀 Deployment
+
+The website can be deployed easily using:
+
+- **Netlify** (recommended)
+- **GitHub Pages**
+
+No build command or backend configuration is required.
+
+---
+
+## 📝 Important Notes
+
+- This project is created **only for educational and demonstration purposes**.
+- It is **not an official Funngro website**.
+- The sign-up form is a **front-end demo only** and does not connect to any production system.
+- The focus of this project is on:
+  - Clean UI
+  - Responsive design
+  - Basic SEO implementation
+  - Proper project structure
+
+---
+
+## ✅ Project Status
+
+- Mobile responsive ✅  
+- SEO-friendly structure ✅  
+- Netlify compatible ✅  
+- Ready for evaluation / submission ✅  
+
+---
+
+## 👤 Author
+
+**itx-arpit**
