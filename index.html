@@ -2,145 +2,132 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Funngro — Connect Teens with Real Company Projects | Teen Jobs & Internships</title>
-  <meta name="description" content="Funngro connects teenagers with real company projects so they can learn, earn, and build practical skills. Explore teen jobs, student freelancing and teen internships." />
-  <meta name="keywords" content="Funngro, teen jobs, student freelancing, teen internships, teen projects, earn and learn" />
-  <meta name="robots" content="index,follow" />
-  <link rel="canonical" href="./index.html" />
-  <meta property="og:title" content="Funngro — Connect Teens with Real Company Projects" />
-  <meta property="og:description" content="Funngro helps teens find real work with companies — earn, learn, and build experience through supervised projects." />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Funngro – Real Company Projects for Teens | Learn & Earn</title>
+
+  <!-- SEO -->
+  <meta name="description" content="Funngro connects teenagers with real company projects to learn, earn, and gain practical experience. Explore teen jobs, student freelancing, and internships." />
+  <meta name="keywords" content="Funngro, teen jobs, student freelancing, teen internships, earn and learn" />
+  <meta name="robots" content="index, follow" />
+
+  <!-- IMPORTANT: canonical should NOT break Netlify -->
+  <link rel="canonical" href="/" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Funngro – Real Projects for Teens" />
+  <meta property="og:description" content="Learn, earn and build experience with real company projects on Funngro." />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="./index.html" />
+
+  <!-- CSS -->
   <link rel="stylesheet" href="styles.css" />
+
+  <!-- Schema -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "Organization",
     "name": "Funngro",
-    "url": "https://arpitskillshow.com",
-    "description": "Funngro connects teenagers with real company projects so they can learn, earn, and gain practical experience.",
-    "keywords": "teen jobs, student freelancing, teen internships, Funngro"
+    "url": "https://arpitskillshow.netlify.app",
+    "description": "Funngro connects teenagers with real company projects to learn, earn, and grow."
   }
   </script>
 </head>
+
 <body>
-  <header class="site-header">
-    <div class="container header-inner">
-      <a class="logo" href="index.html" aria-label="Funngro home">
-        <!-- Simple inline SVG logo for speed -->
-        <svg width="36" height="36" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
-          <rect x="1" y="1" width="22" height="22" rx="5" fill="#1e90ff"></rect>
-          <path d="M6 12h12M12 6v12" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-        </svg>
-        <span class="brand">Funngro</span>
-      </a>
 
-      <nav class="nav" aria-label="Main navigation">
-        <a href="index.html" class="nav-link">Home</a>
-        <a href="teen.html" class="nav-link">For Teens</a>
-        <a href="#how" class="nav-link">How it works</a>
-        <a href="#contact" class="nav-cta">Get Started</a>
-      </nav>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="logo" href="index.html" aria-label="Funngro Home">
+      <svg width="36" height="36" viewBox="0 0 24 24" aria-hidden="true">
+        <rect x="1" y="1" width="22" height="22" rx="5" fill="#1e90ff"></rect>
+        <path d="M6 12h12M12 6v12" stroke="#fff" stroke-width="1.5"/>
+      </svg>
+      <span class="brand">Funngro</span>
+    </a>
+
+    <nav class="nav">
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="teen.html" class="nav-link">For Teens</a>
+      <a href="#how" class="nav-link">How it works</a>
+      <a href="#contact" class="nav-cta">Get Started</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <section class="hero" id="home">
+    <div class="container hero-inner">
+      <div class="hero-copy">
+        <h1>Real company projects for teens</h1>
+        <p class="lead">
+          Learn real skills, earn money, and build experience with supervised company projects.
+        </p>
+
+        <div class="hero-actions">
+          <a href="teen.html" class="btn btn-primary">I'm a Teen – Join Now</a>
+          <a href="#how" class="btn btn-outline">How it Works</a>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="card-sample">
+          <div class="card-title">Company Project</div>
+          <div class="card-meta">Paid • Mentor Guided</div>
+          <ul class="skills">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>UI</li>
+          </ul>
+        </div>
+      </div>
     </div>
-  </header>
+  </section>
 
-  <main>
-    <section class="hero" aria-labelledby="hero-heading">
-      <div class="container hero-inner">
-        <div class="hero-copy">
-          <h1 id="hero-heading">Real company projects for teens — Learn, earn, and build experience</h1>
-          <p class="lead">Funngro connects teenagers with vetted company projects so they can gain real-world skills, earn money, and build a portfolio. Perfect for teen jobs, student freelancing, and teen internships.</p>
-          <div class="hero-actions">
-            <a href="teen.html" class="btn btn-primary">I'm a Teen — Join Now</a>
-            <a href="#how" class="btn btn-outline">How It Works</a>
-          </div>
-        </div>
+  <section id="how" class="section container">
+    <h2>How Funngro Works</h2>
 
-        <div class="hero-visual" role="img" aria-label="Illustration: teens working on projects">
-          <!-- Decorative simple illustration using HTML/CSS shapes for speed -->
-          <div class="card-sample">
-            <div class="card-title">Company Project: Landing Page</div>
-            <div class="card-meta">Paid • 2-Week • Mentor Guided</div>
-            <ul class="skills">
-              <li>HTML</li><li>CSS</li><li>UI</li>
-            </ul>
-          </div>
-        </div>
+    <div class="steps">
+      <div class="step">
+        <h3>1. Sign Up</h3>
+        <p>Create your teen profile and list your skills.</p>
       </div>
-    </section>
 
-    <section id="why" class="section container">
-      <h2>Why Funngro</h2>
-      <div class="grid-2">
-        <article>
-          <h3>For Teens: Learn by doing</h3>
-          <p>Get matched to real company projects that teach practical skills. Build portfolio pieces, earn money, and get mentorship — all while balancing school.</p>
-        </article>
-        <article>
-          <h3>For Companies: Fresh talent and measurable results</h3>
-          <p>Access enthusiastic teen talent for short-term projects, mentoring opportunities, and early talent discovery with low overhead.</p>
-        </article>
+      <div class="step">
+        <h3>2. Get Projects</h3>
+        <p>Work on real projects from real companies.</p>
       </div>
-    </section>
 
-    <section id="how" class="section alt container">
-      <h2>How Funngro works</h2>
-      <div class="steps">
-        <div class="step">
-          <h3>1. Sign up</h3>
-          <p>Create a free teen account and add a short profile with skills and interests.</p>
-        </div>
-        <div class="step">
-          <h3>2. Get matched</h3>
-          <p>Browse or get matched with vetted company projects that suit your skills and goals.</p>
-        </div>
-        <div class="step">
-          <h3>3. Work & earn</h3>
-          <p>Complete the project with mentor support, get feedback, and receive payment or certificates.</p>
-        </div>
+      <div class="step">
+        <h3>3. Earn & Learn</h3>
+        <p>Gain experience, mentorship, and earnings.</p>
       </div>
-      <p class="muted small">Keywords: teen jobs, student freelancing, teen internships, Funngro</p>
-    </section>
-
-    <section class="section container">
-      <h2>Benefits</h2>
-      <ul class="benefits-list">
-        <li><strong>Earn while learning:</strong> Paid micro-projects that fit around school.</li>
-        <li><strong>Real experience:</strong> Work on company briefs, not fake exercises.</li>
-        <li><strong>Mentorship:</strong> Guidance from professionals and actionable feedback.</li>
-        <li><strong>Portfolio-ready:</strong> Deliverables you can show to colleges and employers.</li>
-      </ul>
-    </section>
-
-    <section id="contact" class="section alt container">
-      <h2>Ready to get started?</h2>
-      <p>Whether you're a teen ready to learn and earn or a company with a project, Funngro makes it simple.</p>
-      <div class="cta-row">
-        <a href="teen.html#signup" class="btn btn-primary">Teen Sign Up</a>
-        <a href="mailto:hello@funngro.example" class="btn btn-outline">Contact Companies</a>
-      </div>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="container footer-inner">
-      <div>
-        <span class="brand">Funngro</span>
-        <p class="small muted">© <span id="year"></span> Funngro — Connecting teens with real work. All rights reserved.</p>
-      </div>
-      <nav class="footer-nav">
-        <a href="index.html">Home</a>
-        <a href="teen.html">For Teens</a>
-        <a href="#how">How it Works</a>
-        <a href="mailto:hello@funngro.example">Contact</a>
-      </nav>
     </div>
-  </footer>
+  </section>
 
-  <script>
-    // Small inline script to keep pages fast (no external dependencies)
-    document.getElementById('year').textContent = new Date().getFullYear();
-  </script>
+  <section id="contact" class="section alt container">
+    <h2>Ready to start?</h2>
+    <p>Join Funngro and start building your future today.</p>
+
+    <div class="cta-row">
+      <a href="teen.html" class="btn btn-primary">Join as Teen</a>
+      <a href="mailto:hello@funngro.example" class="btn btn-outline">Contact</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <span class="brand">Funngro</span>
+    <p class="small muted">© <span id="year"></span> Funngro</p>
+  </div>
+</footer>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
 </body>
 </html>
