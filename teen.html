@@ -11,7 +11,6 @@
   <meta name="keywords" content="Funngro, teen jobs, student freelancing, teen internships, earn and learn" />
   <meta name="robots" content="index, follow" />
 
-  <!-- Canonical (Netlify-safe) -->
   <link rel="canonical" href="/teen.html" />
 
   <!-- Open Graph -->
@@ -21,29 +20,16 @@
 
   <!-- CSS -->
   <link rel="stylesheet" href="styles.css" />
-
-  <!-- Schema -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "WebPage",
-    "name": "Funngro – For Teens",
-    "description": "Step-by-step guide for teens to join Funngro, work on projects, and earn.",
-    "url": "https://arpitskillshow.netlify.app/teen.html"
-  }
-  </script>
 </head>
 
 <body>
 
+<!-- HEADER -->
 <header class="site-header">
   <div class="container header-inner">
+
     <a class="logo" href="index.html" aria-label="Funngro home">
-      <svg width="36" height="36" viewBox="0 0 24 24" aria-hidden="true">
-        <rect x="1" y="1" width="22" height="22" rx="5" fill="#1e90ff"></rect>
-        <path d="M6 12h12M12 6v12" stroke="#fff" stroke-width="1.5"/>
-      </svg>
-      <span class="brand">Funngro</span>
+      <img src="funngrologo.png" alt="Funngro Logo">
     </a>
 
     <nav class="nav">
@@ -51,18 +37,21 @@
       <a href="teen.html" class="nav-link">For Teens</a>
       <a href="#signup-form" class="nav-cta">Sign Up</a>
     </nav>
+
   </div>
 </header>
 
+<!-- MAIN -->
 <main>
 
 <section class="section container">
   <h1>For Teens – Get Projects, Earn & Build Skills</h1>
   <p class="lead">
-    Funngro helps teens work on real company projects, earn money, and gain real-world experience.
+    Work on real company projects, earn money, and gain practical experience while studying.
   </p>
 
-  <div class="step">
+  <!-- WHO IS THIS FOR -->
+  <div class="glass-card">
     <h2>Who is this for?</h2>
     <ul>
       <li>School students looking for real experience</li>
@@ -71,29 +60,31 @@
     </ul>
   </div>
 
+  <!-- HOW IT WORKS -->
   <section class="section">
-    <h2>How it works</h2>
+    <h2 class="section-title">How it <span>works</span></h2>
 
     <div class="steps">
-      <div class="step">
+      <div class="glass-card">
         <h3>1. Sign up</h3>
         <p>Create your profile and list your skills.</p>
       </div>
 
-      <div class="step">
+      <div class="glass-card">
         <h3>2. Get projects</h3>
         <p>Apply to real projects posted by companies.</p>
       </div>
 
-      <div class="step">
+      <div class="glass-card">
         <h3>3. Work & earn</h3>
-        <p>Complete tasks, gain mentorship, and earn.</p>
+        <p>Complete tasks, gain mentorship, and earn money.</p>
       </div>
     </div>
   </section>
 
+  <!-- TIPS -->
   <section class="section">
-    <h2>Tips for success</h2>
+    <h2 class="section-title">Tips for <span>success</span></h2>
     <ul>
       <li>Start with small projects</li>
       <li>Communicate clearly with mentors</li>
@@ -101,8 +92,9 @@
     </ul>
   </section>
 
+  <!-- FAQ -->
   <section class="section">
-    <h2>Frequently asked questions</h2>
+    <h2 class="section-title">Frequently <span>asked</span></h2>
 
     <h3>Are projects paid?</h3>
     <p>Yes, many projects are paid and clearly mention payment details.</p>
@@ -111,40 +103,43 @@
     <p>No. Beginners can also start with guided projects.</p>
   </section>
 
-  <section id="signup-form" class="section alt">
-    <h2>Start your Funngro journey</h2>
-    <p>This is a front-end demo sign-up form.</p>
+  <!-- SIGNUP FORM -->
+  <section id="signup-form" class="section">
+    <div class="glass-card">
+      <h2 class="section-title">Start your <span>Funngro</span> journey</h2>
+      <p>This is a front-end demo sign-up form.</p>
 
-    <form name="funngro-signup" method="POST" data-netlify="true">
-      <input type="hidden" name="form-name" value="funngro-signup">
+      <form name="funngro-signup" method="POST" data-netlify="true">
+        <input type="hidden" name="form-name" value="funngro-signup">
 
-      <label>
-        Full name
-        <input type="text" name="name" required>
-      </label>
+        <label>
+          Full name
+          <input type="text" name="name" required>
+        </label>
 
-      <label>
-        Age
-        <input type="number" name="age" min="13" max="19" required>
-      </label>
+        <label>
+          Age
+          <input type="number" name="age" min="13" max="19" required>
+        </label>
 
-      <label>
-        Skills
-        <input type="text" name="skills" placeholder="HTML, Design, Writing">
-      </label>
+        <label>
+          Skills
+          <input type="text" name="skills" placeholder="HTML, Design, Writing">
+        </label>
 
-      <button class="btn btn-primary" type="submit">Create Account</button>
-    </form>
+        <button class="btn btn-primary" type="submit">Create Account</button>
+      </form>
+    </div>
   </section>
 
 </section>
 
 </main>
 
+<!-- FOOTER -->
 <footer class="site-footer">
   <div class="container footer-inner">
-    <span class="brand">Funngro</span>
-    <p class="small muted">© <span id="year"></span> Funngro</p>
+    <span>© <span id="year"></span> Funngro</span>
   </div>
 </footer>
 
