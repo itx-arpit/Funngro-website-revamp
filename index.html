@@ -7,43 +7,28 @@
   <title>Funngro – Real Company Projects for Teens | Learn & Earn</title>
 
   <!-- SEO -->
-  <meta name="description" content="Funngro connects teenagers with real company projects to learn, earn, and gain practical experience. Explore teen jobs, student freelancing, and internships." />
-  <meta name="keywords" content="Funngro, teen jobs, student freelancing, teen internships, earn and learn" />
+  <meta name="description" content="Funngro connects teenagers with real company projects to learn, earn, and gain practical experience." />
+  <meta name="keywords" content="Funngro, teen jobs, student freelancing, teen internships" />
   <meta name="robots" content="index, follow" />
-
-  <!-- IMPORTANT: canonical should NOT break Netlify -->
   <link rel="canonical" href="/" />
 
   <!-- Open Graph -->
   <meta property="og:title" content="Funngro – Real Projects for Teens" />
-  <meta property="og:description" content="Learn, earn and build experience with real company projects on Funngro." />
+  <meta property="og:description" content="Learn, earn and build experience with real company projects." />
   <meta property="og:type" content="website" />
 
   <!-- CSS -->
   <link rel="stylesheet" href="styles.css" />
-
-  <!-- Schema -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "Funngro",
-    "url": "https://arpitskillshow.netlify.app",
-    "description": "Funngro connects teenagers with real company projects to learn, earn, and grow."
-  }
-  </script>
 </head>
 
 <body>
 
+<!-- ================= HEADER ================= -->
 <header class="site-header">
   <div class="container header-inner">
-    <a class="logo" href="index.html" aria-label="Funngro Home">
-      <svg width="36" height="36" viewBox="0 0 24 24" aria-hidden="true">
-        <rect x="1" y="1" width="22" height="22" rx="5" fill="#1e90ff"></rect>
-        <path d="M6 12h12M12 6v12" stroke="#fff" stroke-width="1.5"/>
-      </svg>
-      <span class="brand">Funngro</span>
+
+    <a class="logo" href="index.html">
+      <img src="funngrologo.png" alt="Funngro Logo">
     </a>
 
     <nav class="nav">
@@ -52,27 +37,36 @@
       <a href="#how" class="nav-link">How it works</a>
       <a href="#contact" class="nav-cta">Get Started</a>
     </nav>
+
   </div>
 </header>
 
+<!-- ================= MAIN ================= -->
 <main>
 
-  <section class="hero" id="home">
+  <!-- HERO -->
+  <section class="hero">
     <div class="container hero-inner">
+
       <div class="hero-copy">
-        <h1>Real company projects for teens</h1>
+        <h1>
+          Real company projects for <br>
+          <span style="color:#1fd18a;">teenagers</span>
+        </h1>
+
         <p class="lead">
-          Learn real skills, earn money, and build experience with supervised company projects.
+          Learn real skills, earn money, and build experience by working
+          on supervised projects from real companies.
         </p>
 
         <div class="hero-actions">
-          <a href="teen.html" class="btn btn-primary">I'm a Teen – Join Now</a>
+          <a href="teen.html" class="btn btn-primary">I’m a Teen – Join Now</a>
           <a href="#how" class="btn btn-outline">How it Works</a>
         </div>
       </div>
 
       <div class="hero-visual">
-        <div class="card-sample">
+        <div class="glass-card">
           <div class="card-title">Company Project</div>
           <div class="card-meta">Paid • Mentor Guided</div>
           <ul class="skills">
@@ -82,46 +76,63 @@
           </ul>
         </div>
       </div>
+
     </div>
   </section>
 
+  <!-- HOW IT WORKS -->
   <section id="how" class="section container">
-    <h2>How Funngro Works</h2>
+    <h2 class="section-title">
+      How <span>Funngro</span> Works
+    </h2>
 
     <div class="steps">
-      <div class="step">
+      <div class="glass-card">
         <h3>1. Sign Up</h3>
-        <p>Create your teen profile and list your skills.</p>
+        <p>Create your teen profile and list your skills and interests.</p>
       </div>
 
-      <div class="step">
+      <div class="glass-card">
         <h3>2. Get Projects</h3>
-        <p>Work on real projects from real companies.</p>
+        <p>Get matched with real company projects suited to your skills.</p>
       </div>
 
-      <div class="step">
+      <div class="glass-card">
         <h3>3. Earn & Learn</h3>
-        <p>Gain experience, mentorship, and earnings.</p>
+        <p>Complete tasks, get mentorship, earn money and certificates.</p>
       </div>
     </div>
   </section>
 
-  <section id="contact" class="section alt container">
-    <h2>Ready to start?</h2>
-    <p>Join Funngro and start building your future today.</p>
+  <!-- CTA -->
+  <section id="contact" class="section container">
+    <div class="glass-card">
+      <h2 class="section-title">
+        Ready to <span>start?</span>
+      </h2>
 
-    <div class="cta-row">
-      <a href="teen.html" class="btn btn-primary">Join as Teen</a>
-      <a href="mailto:hello@funngro.example" class="btn btn-outline">Contact</a>
+      <p class="lead">
+        Join thousands of teens already learning and earning with Funngro.
+      </p>
+
+      <div class="hero-actions">
+        <a href="teen.html" class="btn btn-primary">Join as Teen</a>
+        <a href="mailto:hello@funngro.example" class="btn btn-outline">Contact</a>
+      </div>
     </div>
   </section>
 
 </main>
 
+<!-- ================= FOOTER ================= -->
 <footer class="site-footer">
   <div class="container footer-inner">
-    <span class="brand">Funngro</span>
-    <p class="small muted">© <span id="year"></span> Funngro</p>
+    <span>© <span id="year"></span> Funngro</span>
+
+    <nav class="footer-nav">
+      <a href="index.html">Home</a>
+      <a href="teen.html">For Teens</a>
+    </nav>
   </div>
 </footer>
 
